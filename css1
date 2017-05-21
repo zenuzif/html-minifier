@@ -1,0 +1,47 @@
+#blog-pager{clear:both;margin:30px auto;text-align:center; padding: 7px;}
+.blog-pager {background: none;}
+.displaypageNum a,.showpage a,.pagecurrent{padding: 5px 10px;margin-right:5px; color: #F4F4F4; background-color:#141414;-webkit-box-shadow: 0px 5px 3px -1px rgba(50, 50, 50, 0.53);-moz-box-shadow:0px 5px 3px -1px rgba(50, 50, 50, 0.53);box-shadow: 0px 5px 3px -1px rgba(50, 50, 50, 0.53);}
+.displaypageNum a:hover,.showpage a:hover, .pagecurrent{background:#6fa8dc;text-decoration:none;color: #fff;}
+#blog-pager .showpage, #blog-pager, .pagecurrent{font-weight:bold;color: #000;}
+ .showpageOf{display:none!important}
+#blog-pager .pages{border:none;-webkit-box-shadow: 0px 5px 3px -1px rgba(50, 50, 50, 0.53);-moz-box-shadow:0px 5px 3px -1px rgba(50, 50, 50, 0.53);box-shadow: 0px 5px 3px -1px rgba(50, 50, 50, 0.53);}
+
+
+.PopularPosts ul,
+.PopularPosts li,
+.PopularPosts li img,
+.PopularPosts li a,
+.PopularPosts li a img {
+margin:5 5;
+padding:5 5;
+list-style:none;
+border:none;
+background:none;
+outline:none;
+}
+.PopularPosts ul {
+margin:.10em 10;
+list-style:none;
+font:normal normal 13px/1.4 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+color:#666666;
+}
+.PopularPosts ul li img {
+display:block;
+margin:5 .em 5 10%;
+width:50px;
+height:50px;
+float:left;
+}
+.PopularPosts ul li {
+background-color:#141414;
+margin:0% .em 0% 0;
+padding:.5em .5em .5em .5em;
+position:relative;
+}
+.PopularPosts ul li:before,
+.PopularPosts ul li .item-title a {
+font-weight;
+font-size:120%;
+color:inherit;
+text-decoration:none;
+}
